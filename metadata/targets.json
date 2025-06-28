@@ -2,14 +2,27 @@
  "signatures": [
   {
    "keyid": "3f965c4fb1b8f9fadf838ea0fbb29801e4a2d9a86d7bea64272a1bde921e8b0d",
-   "sig": "cfdcf62e0cbf0ab7338cb06a3abd5e95cb968d74c19f13a15fa0e854f95334e0fdae77568953f881bc115b0b7ed113e3f42fbd7a441ed32c2458119a6bedc209"
+   "sig": "04de26a6e54922ccb31e0245f24e7c1945465911fe40db7c2b5e62f4409e46e1b5a4096d730de7a7215e6bcdd77df9df01d12979b2068b2d9e7dfb924b3f4d00"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2025-06-25T23:05:20Z",
+  "expires": "2025-06-25T23:32:34Z",
   "spec_version": "1.0.31",
-  "targets": {},
-  "version": 1
+  "targets": {
+   "hexilo_desktop-0.1.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "9657e86bca6edcb4340d4d140d5840c4f42e6c5ccb25657c147a74ce45e993ff"
+    },
+    "length": 23272951
+   }
+  },
+  "version": 2
  }
 }
